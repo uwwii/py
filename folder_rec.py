@@ -16,7 +16,7 @@ def rec_folder(name):
             make_dict[name].append(rec_folder(make_path))
     return make_dict
 
-rec_folder(name))
+print(rec_folder(name))
 
 
 
